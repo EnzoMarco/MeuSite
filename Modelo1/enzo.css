@@ -1,0 +1,39 @@
+.logo{
+    
+}
+body{
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+#code{
+    width: 40px;
+    margin-left: 40px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.barra{
+    margin-right: 10px;
+}
+a{
+    margin: 5px;
+}
+.matrix{
+    display: flex;
+    margin-top: 14px;
+    background: rgb(233,206,148);
+    background: radial-gradient(circle, rgba(233,206,148,1) 0%, rgba(0,0,0,1) 100%);;
+    /*background-image: url(matrix.jpg);
+    background-size: cover;*/
+    width: 100%;
+    height: 700px;
+}
+.enzo{
+    margin-left: 200px;
+    margin-top: 200px;
+}
