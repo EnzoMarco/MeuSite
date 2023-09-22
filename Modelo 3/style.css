@@ -27,6 +27,7 @@ nav ul li{
 }
 /*Main*/
 main{
+    width: 100vw;
     height: 50vh;
     display: flex;
     justify-content: space-around;
@@ -78,42 +79,43 @@ section{
 .c1{
     grid-row: 1;
     grid-column: 1;
-    background-color: #ffffff;
+    background-color: #333;
     width: 150px;
     height: 150px;
 }
 .c2{
     grid-row: 1;
     grid-column: 2;
-    background-color: #ffffff;
+    background-color: #333;
     width: 150px;
     height: 150px;
 }
 .c3{
     grid-row: 1;
     grid-column: 3;
-    background-color: #ffffff;
+    background-color: #333;
     width: 150px;
     height: 150px;
 }
 .c4{
     grid-row: 2;
     grid-column: 1;
-    background-color: #ffffff;
+    background-color: #333;
     width: 150px;
     height: 150px;
 }
 .c5{
     grid-row: 2;
     grid-column: 2;
-    background-color: #ffffff;
+    background-color: #333;
     width: 150px;
     height: 150px;
 }
 .c6{
     grid-row: 2;
     grid-column: 3;
-    background-color: #ffffff;
+    background-color: #333;
+    color: #FFF;
     width: 150px;
     height: 150px;
 }
@@ -125,8 +127,8 @@ footer{
 .rodapé{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    width: 50%
+    justify-content: space-around;
+    width: 100vw;
     height: 10vh;
     border: solid#5c5b5b;
     background: rgb(164, 190, 201);
@@ -135,6 +137,7 @@ footer{
 .contato{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .ícones{
     color: #333;
