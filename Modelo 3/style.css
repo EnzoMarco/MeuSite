@@ -17,6 +17,10 @@ nav{
 }
 nav img {
     width: 20px;
+    cursor: pointer;
+}
+nav img:hover{
+    background-color: #a7a3a3;
 }
 nav ul{
     display: flex;
@@ -24,6 +28,10 @@ nav ul{
 }
 nav ul li{
     margin-right: 20px;
+    cursor: pointer;
+}
+li:hover{
+    color: #dd1616;
 }
 /*Main*/
 main{

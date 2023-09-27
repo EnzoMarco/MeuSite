@@ -16,7 +16,7 @@
                 <li>Projetos</li>
                 <li>Contato</li>
             </ul>
-            <img src="lua.png">
+            <img src="lua.png" alt="Lua" onclick="modoEscuro()">
         </nav>
     </header>
     <main>
@@ -56,5 +56,12 @@
         </div> 
     </footer>
     <p class="copyright">&copy; 2023 Enzo Marco. Todos os direitos reservados.</p>
+    <script>
+        function modoEscuro() {
+            document.body.style.backgroundColor = '#333';
+            document.querySelector('header') = '#333 !important';
+            document.querySelector('main') = '#333 !important';
+        }
+    </script>
 </body>
 </html>
